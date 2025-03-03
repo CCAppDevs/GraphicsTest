@@ -36,10 +36,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SteelBlue;
             ClientSize = new Size(815, 463);
+            DoubleBuffered = true;
             Name = "Form1";
             Text = "Graphics";
             WindowState = FormWindowState.Maximized;
             Paint += DrawFrame;
+            KeyDown += Form1_KeyDown;
             ResumeLayout(false);
         }
 
