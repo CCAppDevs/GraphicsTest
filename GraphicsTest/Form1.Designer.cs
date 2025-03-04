@@ -32,11 +32,12 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.SteelBlue;
-            ClientSize = new Size(815, 463);
+            ClientSize = new Size(815, 400);
             DoubleBuffered = true;
+            MinimumSize = new Size(800, 600);
             Name = "Form1";
             Text = "Graphics";
             WindowState = FormWindowState.Maximized;
